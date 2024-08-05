@@ -1,0 +1,32 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.env
+.venv
+.python-version
+*.egg-info
+.DS_Store
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.outputs
+cdk.context.json
+cfn.outputs
+
+aws-exports.js
+node_modules
+
+# IDE
+.coverage
+.VSCodeCounter
+
+lib/*.js
+lib/constructs/**/*.js
+bin/**/*.js
+test/**/*.js
+!jest.config.js
+*.d.ts
+
+website/build*
